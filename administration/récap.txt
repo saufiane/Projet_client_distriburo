@@ -1,0 +1,19 @@
+*Faire un site pour l'entreprise Distriburo
+- Ventes d'accessoires pour bureaux (cartouches d'imprimantes, stylos, bloc note...etc)
+- 10 employés, 1 secretaire, responsable de l'entreprise = 12
+- 2 docs techniques sur téléphone(adaptables pour les smartphones, tablettes, pc) et consultable distance, protégée
+- accès à ces docs avec un login et un mot de passe sécurisé pour chaque employés.
+- Une page d'accueil (logo, presentation de l'entreprise, images fourni par le client ...)
+
+- contenu de la docs technique : 2 articles + titres + photos
+
+-couleurs principales du site : bleu et blanc
+
+-chaques employées recevra son propre login et mot de passe au domaine de la société.
+
+-création d'une base de donnée (contenant les logins et les passwords)
+
+
+-explications de l'utilisation de la base de donnée pour pouvoir ajouter, modifier ou supprimer d'eventuelle colaborateurs.
+
+-creation de maquette pour la page d'accueil et des docs techniques
