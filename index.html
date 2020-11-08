@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <title>Accueil | DistriBuro</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  </head>
+  <body>
+    <!-- Ajouter et regler logo Distriburo  -->
+
+    <div class="jumbotron text-center" style="margin-bottom: 0">
+      <img src="maquettes/logo-distriburo3.jpg" alt="Logo DistriBuro" />
+
+      <p>Vente d'accessoires pour bureaux</p>
+    </div>
+    <!-- navbar de la page d'accueil -->
+    <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+      <a class="navbar-brand" href="index.html">DistriBuro</a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#collapsibleNavbar"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="collapsibleNavbar">
+        <ul class="navbar-nav">
+          <li class="nav-item"></li>
+          <li class="nav-item">
+            <a class="nav-link" href="login.html">Connexion</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contacts.html">Contacts</a>
+          </li>
+        </ul>
+      </div>
+      <!-- Fin  navbar de la page d'acuueil -->
+
+      <!-- Bouton rechercher non fonctionnel pour le moment -->
+      <div>
+        <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+          <form
+            class="form-inline"
+            action="/exo-code/access_prive.php"
+            method="post"
+          >
+            <input
+              class="form-control mr-sm-2"
+              type="text"
+              placeholder="Rechercher"
+            />
+            <button class="btn btn-success" type="submit">Rechercher</button>
+          </form>
+        </nav>
+      </div>
+    </nav>
+    <!-- Fin Bouton rechercher -->
+
+    <!-- Photo 1 de Distriburo -->
+    <div class="container" style="margin-top: 30px">
+      <div class="row">
+        <div class="col-sm-4">
+          <h2>Atelier de DistriBuro</h2>
+          <div>
+            <img
+              src="assets/img/atelier2.jpg"
+              class="img-thumbnail"
+              alt="atelier DistriBuro"
+            />
+          </div>
+
+          <p>Some text about me in culpa qui officia deserunt mollit anim..</p>
+
+          <!-- Menu en bas de page d'accueil -->
+          <h3>Menu</h3>
+
+          <ul class="nav nav-pills flex-column">
+            <li class="nav-item">
+              <a class="nav-link active" href="index.html">DistriBuro</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="login.html">Connexion</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contacts.html">Contacts</a>
+            </li>
+          </ul>
+          <hr class="d-sm-none" />
+        </div>
+        <!-- Fin Menu en bas de page d'accueil -->
+
+        <!-- Photo 2 Distruburo -->
+        <div class="col-sm-8">
+          <h2>DistriBuro vue de l'exterieur</h2>
+
+          <div>
+            <img
+              src="assets/img/exterieur_entreprise2.jpg"
+              class="img-thumbnail"
+              alt="exterieur DistriBuro"
+            />
+          </div>
+
+          <p>
+            Sunt in culpa qui officia deserunt mollit anim id est laborum
+            consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+            labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+            exercitation ullamco.
+          </p>
+
+          <!-- Photo 3 de Distriburo -->
+          <br />
+          <h2>Bureaux de DistriBuro</h2>
+
+          <div>
+            <img
+              src="assets/img/openspace2-1.jpg"
+              class="img-thumbnail"
+              alt=" bureaux open space de DistriBuro"
+            />
+          </div>
+
+          <p>
+            Sunt in culpa qui officia deserunt mollit anim id est laborum
+            consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+            labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+            exercitation ullamco.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Footer -->
+
+    <div class="jumbotron text-center" style="margin-bottom: 0">
+      <footer>
+        <p class="text-center">&copy; 2020-2021 DistriBuro</p>
+      </footer>
+    </div>
+    <!-- Footer -->
+  </body>
+</html>
